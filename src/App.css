@@ -1,3 +1,51 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #f9f6ee;
+}
+
+main {
+  padding: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.logo-text {
+  color: #088f8f;
+  font-weight: 600;
+}
+
+.login,
+.register {
+  position: relative;
+  left: 50%;
+  margin-right: 10px;
+}
+
+nav .logo,
+.login,
+.register {
+  text-decoration: none;
+  color: inherit;
+}
